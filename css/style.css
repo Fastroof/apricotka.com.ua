@@ -52,6 +52,10 @@ header {
   height: 790px;
 }
 
+.content {
+  padding-top: 135px;
+}
+
 .content h1 {
   width: 590px;
   font-family: Montserrat Alternates;
@@ -74,6 +78,7 @@ header {
   line-height: 150%;
   letter-spacing: 0.45px;
   color: #FFFFFF;
+  margin-bottom: 50px;
 }
 
 .button {
@@ -90,6 +95,7 @@ header {
   border: none;
   color: #000;
   width: 200px;
+  height: 50px;
   transition: all 0.5s;
   cursor: pointer;
 }
@@ -98,21 +104,37 @@ header {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  left: 10px;
 }
 
 .button span:after {
-  content: '';
+  content: ' 🛒';
   opacity: 0;
   top: 0;
-  right: -20px;
   transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+  padding-right: 5px;
 }
 
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.ill1 {
+  position: absolute;
+  width: 618px;
+  height: 504px;
+  left: 756px;
+  top: 31px;
+}
+
+.ill2 {
+  position: absolute;
+  width: 594px;
+  height: 463px;
+  left: 500px;
+  top: 381px;
 }
