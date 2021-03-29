@@ -1,9 +1,9 @@
-* {padding: 0; margin: 0;}
+/* * {padding: 0; margin: 0;} */
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: auto;
-}
+} */
 
 /* navigation start */
 header {
@@ -27,6 +27,9 @@ header {
   margin-bottom: 34px;
 }
 
+.navigation-bar-links li {
+  margin-bottom: 0;
+}
 .navigation-bar  a {
   font-family: Montserrat;
   font-style: normal;
@@ -57,7 +60,6 @@ header {
 }
 
 .content h1 {
-  width: 590px;
   font-family: Montserrat Alternates;
   font-style: normal;
   font-weight: normal;
@@ -65,12 +67,10 @@ header {
   line-height: 75px;
   letter-spacing: 2px;
   color: #FFFFFF;
-
-  padding-bottom: 20px;
+  margin: 0;
 }
 
 .content p {
-  width: 476px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -78,7 +78,8 @@ header {
   line-height: 150%;
   letter-spacing: 0.45px;
   color: #FFFFFF;
-  margin-bottom: 50px;
+  margin-left: 0;
+  margin-bottom: 40px;
 }
 
 .button {
@@ -138,3 +139,99 @@ header {
   left: 500px;
   top: 381px;
 }
+/* hello end */
+
+
+/* info start */
+.info {
+}
+
+.about {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid;
+  color: #000;
+}
+
+.text-about h1 {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #1C1C1D;
+}
+
+.text-about p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.45px;
+  color: #474A57;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  margin-bottom: 36px;
+  border: 2px solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #7711DD;
+  display: flex;
+}
+
+.card img {
+  max-width: 246px;
+  max-height: 192px;
+  margin: 25px 32px;
+}
+
+.card p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  margin: 55px 0;
+}
+/* info end */
+
+
+
+/* ecomerce start */
+
+
+
+/* ecomerce end */
+
+
+
+
+/* */
