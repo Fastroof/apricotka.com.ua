@@ -227,8 +227,29 @@ header {
 
 /* ecomerce start */
 
-.choiced-kind-img {
-  margin: 80px 0;
+.ecomerce {
+  margin-bottom: 80px;
+}
+
+
+.title-info-about-kind {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  color: #1C1C1D;
+}
+
+.text-info-about-kind {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.45px;
+    color: #474A57;
 }
 
 /* ecomerce end */
