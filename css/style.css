@@ -1,10 +1,3 @@
-/* * {padding: 0; margin: 0;} */
-
-/* .container {
-  max-width: 1200px;
-  margin: auto;
-} */
-
 /* navigation start */
 header {
   background: #5B8E25;
@@ -23,14 +16,14 @@ header {
 .navigation-bar-links {
   list-style: none;
   display: flex;
-  margin-top: 35px;
-  margin-bottom: 34px;
+  margin-top: 27px;
+  margin-bottom: 27px;
 }
 
 .navigation-bar-links li {
   margin-bottom: 0;
 }
-.navigation-bar  a {
+.navigation-bar a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
@@ -52,7 +45,6 @@ header {
 /* hello start */
 .hello {
   background: #5B8E25;
-  height: 790px;
 }
 
 .content {
@@ -60,12 +52,11 @@ header {
 }
 
 .content h1 {
-  font-family: Montserrat Alternates;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 70px;
   line-height: 75px;
-  letter-spacing: 2px;
   color: #FFFFFF;
   margin: 0;
 }
@@ -76,7 +67,6 @@ header {
   font-weight: normal;
   font-size: 18px;
   line-height: 150%;
-  letter-spacing: 0.45px;
   color: #FFFFFF;
   margin-left: 0;
   margin-bottom: 40px;
@@ -88,8 +78,6 @@ header {
   font-weight: 900;
   font-size: 16px;
   text-align: center;
-
-
   display: inline-block;
   border-radius: 4px;
   background-color: #fff;
@@ -124,27 +112,17 @@ header {
   right: 0;
 }
 
-.ill1 {
-  position: absolute;
-  width: 618px;
-  height: 504px;
-  left: 756px;
-  top: 31px;
+.slider {
 }
 
-.ill2 {
-  position: absolute;
-  width: 594px;
-  height: 463px;
-  left: 500px;
-  top: 381px;
+.slider img {
+  max-height: 630px;
+  pointer-events: none;
 }
 /* hello end */
 
 
 /* info start */
-.info {
-}
 
 .about {
   padding: 80px 0;
@@ -160,8 +138,6 @@ header {
   line-height: 32px;
   text-align: center;
   padding: 15px;
-  border-radius: 10px;
-  border: 2px solid;
   color: #000;
 }
 
@@ -249,12 +225,43 @@ header {
   font-size: 18px;
   line-height: 150%;
   letter-spacing: 0.45px;
-    color: #474A57;
+  color: #474A57;
 }
 
 /* ecomerce end */
 
+/* gallery start */
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.grid-column {
+  flex: 25%;
+  max-width: 25%;
+}
+
+.grid-column img {
+  margin-top: 4px;
+  vertical-align: middle;
+  max-width: 296px;
+  width: 100%;
+}
+
+.grid-column img:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.gallery h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  text-align: center;
+}
+/* gallery end */
 
 /* */

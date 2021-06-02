@@ -9,12 +9,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- <script href="js/script.js"></script> -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link href='https://fonts.googleapis.com/css?family=Spectral' rel='stylesheet'>
+  <link type="text/css" rel="stylesheet" href="css/normalize.css">
+  <link type="text/css" rel="stylesheet" href="css/skeleton.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg" href="resources/logo/logo-icon-v2.2.svg">
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css">
 
 </head>
 <body>
@@ -23,7 +23,7 @@
         <img src="resources\logo\logo-icon-v2.2 mini.svg" alt="logo" class="logo">
         <ul class="navigation-bar-links">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#info">About</a></li>
           <li><a href="#">Shop</a></li>
           <li><a href="#">Gallery</a></li>
         </div>
@@ -31,14 +31,13 @@
   </header>
   <div class="hello">
     <div class="container row">
-      <div class="content one-half column row">
-        <h1>You’ll not find tastier!</h1>
-        <p class="ten columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et.</p>
-        <button class="button"><span>Buy now !!!</span></button>
+      <div class="content five columns">
+        <h1>Не знайдеш смачніші!</h1>
+        <p>Стиглі, соковиті, вирощенні з турботою абрикоси 9 різних сортів можна замовити вже зараз</p>
+        <button class="button"><span>Замовити!</span></button>
       </div>
-      <div class="illustrations">
-        <img src="resources\images\ill1.png" alt="ill1" class="ill ill1" data-tilt>
-        <img src="resources\images\ill2.png" alt="ill2" class="ill ill2" data-tilt>
+      <div class="slider one-half column">
+        <img id="slider-image" src="resources/slider/slider-1.jpg">
       </div>
     </div>
   </div>
@@ -46,8 +45,7 @@
     <div class="container row">
       <div class="about">
          <div class="text-about one-half column">
-           <div class="title">About</div>
-           <h1>text about</h1>
+           <div class="title">Трішки про нас</div>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo. Vestibulum aliquam hendrerit molestie.
              Mauris malesuada nisi sit amet augue accumsan tincidunt. Maecenas tincidunt, velit ac porttitor pulvinar, tortor eros facilisis libero, vitae commodo nunc quam et ligula. Ut nec ipsum sapien.
 
@@ -55,14 +53,7 @@
            </p>
          </div>
          <div class="cards one-half column">
-           <div class="card clearfix">
-             <img src="resources\images\Rectangle 246x191.08.png" alt="r1">
-             <p>Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et esse cupidatat consequat ea exercitation.</p>
-           </div>
-           <div class="card clearfix">
-             <img src="resources\images\Rectangle 246x191.08.png" alt="r1">
-             <p>Nisi ullamco tempor tempor nulla labore ad labore sit eu duis. Ut et esse cupidatat consequat ea exercitation.</p>
-           </div>
+           <img src="resources\images\preview.png" alt="">
          </div>
       </div>
     </div>
@@ -70,7 +61,12 @@
   <div class="ecomerce">
     <div class="container row">
       <div class="about-choiced-kind one-half column">
-        <img src="resources\images\1.png" alt="???" class="choiced-kind-img">
+        <div class="fotorama" data-nav="thumbs" data-allowfullscreen="native">
+          <img src="resources\images\1.png" alt="">
+          <img src="resources\images\1.png" alt="">
+          <img src="resources\images\1.png" alt="">
+          <img src="resources\images\1.png" alt="">
+        </div>
       </div>
       <div class="order-box one-half column">
         <div class="title-info-about-kind">NJ19 - best choice</div>
@@ -81,9 +77,76 @@
       </div>
     </div>
   </div>
+  <div class="gallery">
+    <div class="container">
+      <h1>Галерея</h1>
+      <div class="grid">
+        <div class="grid-column">
+          <img src="resources/gallery/our-cool-work-min (2).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (1).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (3).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (4).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (5).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (6).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (7).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (8).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (9).jpg" alt="">
+        </div>
+        <div class="grid-column">
+          <img src="resources/gallery/our-cool-work-min (10).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (11).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (12).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (13).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (14).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (15).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (16).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (17).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (18).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (36).jpg" alt="">
+        </div>
+        <div class="grid-column">
+          <img src="resources/gallery/our-cool-work-min (19).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (20).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (21).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (22).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (23).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (24).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (25).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (26).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (27).jpg" alt="">
+        </div>
+        <div class="grid-column">
+          <img src="resources/gallery/our-cool-work-min (28).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (29).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (30).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (31).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (32).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (33).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (34).jpg" alt="">
+          <img src="resources/gallery/our-cool-work-min (35).jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <script type="text/javascript">
+    var images = ["resources/slider/slider-1.jpg", "resources/slider/slider-2.jpg", "resources/slider/slider-3.jpg"]
+    var index = 0;
 
+    function change() {
+      $('#slider-image').fadeOut(500, function() {
+        index > 1 ? index = 0 : index++;
+        $('#slider-image').attr("src", images[index]);
+        $('#slider-image').fadeIn(500);
+      });
+    }
+
+    window.onload = function () {
+      setInterval(change, 4000);
+    };
+  </script>
   <div style="height: 2000px; background: #000;"></div>
-  <script src="js\vanilla-tilt.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 </body>
 </html>
