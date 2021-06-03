@@ -16,8 +16,8 @@ header {
 .navigation-bar-links {
   list-style: none;
   display: flex;
-  margin-top: 27px;
-  margin-bottom: 27px;
+  margin-top: 34px;
+  margin-bottom: 33px;
 }
 
 .navigation-bar-links li {
@@ -45,10 +45,15 @@ header {
 /* hello start */
 .hello {
   background: #5B8E25;
+  background-image: url("/resources/slider/slider-1.jpg"), url("/resources/slider/slider-2.jpg"), url("/resources/slider/slider-3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .content {
-  padding-top: 135px;
+  padding-top: 165px;
+  padding-bottom: 170px;
 }
 
 .content h1 {
@@ -112,13 +117,8 @@ header {
   right: 0;
 }
 
-.slider {
-}
 
-.slider img {
-  max-height: 630px;
-  pointer-events: none;
-}
+
 /* hello end */
 
 

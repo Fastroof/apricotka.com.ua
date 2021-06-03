@@ -31,13 +31,10 @@
   </header>
   <div class="hello">
     <div class="container row">
-      <div class="content five columns">
+      <div class="content one-half column row">
         <h1>Не знайдеш смачніші!</h1>
-        <p>Стиглі, соковиті, вирощенні з турботою абрикоси 9 різних сортів можна замовити вже зараз</p>
+        <p class="ten columns">Стиглі, соковиті, вирощенні з турботою абрикоси 9 різних сортів можна замовити вже зараз</p>
         <button class="button"><span>Замовити!</span></button>
-      </div>
-      <div class="slider one-half column">
-        <img id="slider-image" src="resources/slider/slider-1.jpg">
       </div>
     </div>
   </div>
@@ -129,22 +126,7 @@
     </div>
   </div>
 
-  <script type="text/javascript">
-    var images = ["resources/slider/slider-1.jpg", "resources/slider/slider-2.jpg", "resources/slider/slider-3.jpg"]
-    var index = 0;
-
-    function change() {
-      $('#slider-image').fadeOut(500, function() {
-        index > 1 ? index = 0 : index++;
-        $('#slider-image').attr("src", images[index]);
-        $('#slider-image').fadeIn(500);
-      });
-    }
-
-    window.onload = function () {
-      setInterval(change, 4000);
-    };
-  </script>
+  <script src="js/main.js"></script>
   <div style="height: 2000px; background: #000;"></div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
